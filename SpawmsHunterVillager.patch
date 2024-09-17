@@ -1,0 +1,24 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/spawns/Hunters/HuntersVillage.xml dist/game/data/spawns/Hunters/HuntersVillage.xml
+index 6b66add..de0141c 100644
+--- dist/game/data/spawns/Hunters/HuntersVillage.xml
++++ dist/game/data/spawns/Hunters/HuntersVillage.xml
+@@ -27,7 +27,7 @@
+ 			<npc id="30699" x="120249" y="76031" z="-2256" heading="31768" respawnTime="60sec" /> <!-- Medown - Grand Master -->
+ 			<npc id="30700" x="120251" y="76247" z="-2264" heading="40960" respawnTime="60sec" /> <!-- Prestan - Master -->
+ 			<npc id="30701" x="120180" y="75807" z="-2264" heading="18384" respawnTime="60sec" /> <!-- Errickin - Magister -->
+-			<npc id="34267" x="117598" y="77264" z="-2584" heading="53248" respawnTime="60sec" /> <!-- Arcturus - Hunters' Guild Leader -->
++			<!-- <npc id="34267" x="117598" y="77264" z="-2584" heading="53248" respawnTime="60sec" />  --> <!-- Arcturus - Hunters' Guild Leader -->
+ 			<npc id="30703" x="117717" y="77273" z="-2584" heading="45056" respawnTime="60sec" /> <!-- Colleen - Hunters' Guild -->
+ 			<npc id="30704" x="120100" y="74739" z="-2368" heading="31000" respawnTime="60sec" /> <!-- Garvarentz - High Prefect -->
+ 			<npc id="30705" x="120079" y="74847" z="-2368" heading="31000" respawnTime="60sec" /> <!-- Chakiris - Prefect -->
+@@ -71,7 +71,7 @@
+ 			<npc id="33918" x="116387" y="75384" z="-2712" heading="20745" respawnTime="60sec" /> <!-- Aria Furstmater - Soul Seeker -->
+ 			<npc id="35277" x="116780" y="75504" z="-2720" heading="20000" respawnTime="60sec" /> <!-- Manor Manager - Aden -->
+ 			<npc id="34018" x="116503" y="75392" z="-2712" heading="12298" respawnTime="60sec" /> <!-- Merlot -->
+-			<npc id="34267" x="117509" y="77208" z="-2590" heading="52054" respawnTime="60sec" /> <!-- Arcturus - Hunters' Guild Leader -->
++			<!-- <npc id="34267" x="117509" y="77208" z="-2590" heading="52054" respawnTime="60sec" /> --> <!-- Arcturus - Hunters' Guild Leader -->
+ 			<npc id="33946" x="116830" y="77297" z="-2698" heading="36736" respawnTime="60sec" /> <!-- Adventure Guildsman -->
+ 		</group>
+ 	</spawn>

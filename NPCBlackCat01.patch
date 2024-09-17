@@ -1,0 +1,37 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/multisell/3160301.xml dist/game/data/multisell/3160301.xml
+index b2f9e33..747d91c 100644
+--- dist/game/data/multisell/3160301.xml
++++ dist/game/data/multisell/3160301.xml
+@@ -21,16 +21,17 @@
+ 		<!-- Request - Tauti's Bracelet -->
+ 		<production count="1" id="35293" />
+ 	</item>
+-	<item>
+-		<ingredient count="1" id="-500" />
+-		<production count="100" id="-300" />
+-	</item>
+-	<item>
+-		<ingredient count="10" id="-500" />
+-		<production count="1000" id="-300" />
+-	</item>
+-	<item>
+-		<ingredient count="100" id="-500" />
+-		<production count="10000" id="-300" />
+-	</item>
++<!-- version old -->
++	<!-- <item> -->
++		<!-- <ingredient count="1" id="-500" /> -->
++		<!-- <production count="100" id="-300" /> -->
++	<!-- </item> -->
++	<!-- <item> -->
++		<!-- <ingredient count="10" id="-500" /> -->
++		<!-- <production count="1000" id="-300" /> -->
++	<!-- </item> -->
++	<!-- <item> -->
++		<!-- <ingredient count="100" id="-500" /> -->
++		<!-- <production count="10000" id="-300" /> -->
++	<!-- </item> -->
+ </list>
+\ No newline at end of file

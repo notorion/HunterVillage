@@ -1,0 +1,63 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/multisell/3160303.xml dist/game/data/multisell/3160303.xml
+index f60391a..996e888 100644
+--- dist/game/data/multisell/3160303.xml
++++ dist/game/data/multisell/3160303.xml
+@@ -51,6 +51,56 @@
+ 		<!-- Aria's Bracelet: INT -->
+ 		<production count="1" id="38570" />
+ 	</item>
++            <!-- 4game - Core 09 2024 -->
++	<item>
++		<!-- High-grade Aria's Bracelet MEN +4 -->
++		<ingredient count="1" id="47741" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- Aria's Bracelet: CON +4 -->
++		<production count="1" id="47740" />
++	</item>
++	<item>
++		<!-- High-grade Aria's Bracelet CON +4 -->
++		<ingredient count="1" id="47740" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- High-grade Aria's Bracelet MEN +4 -->
++		<production count="1" id="47741" />
++	</item>
++	<item>
++		<!-- High-grade Aria's Bracelet WIT +4 -->
++		<ingredient count="1" id="47743" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- High-grade Aria's Bracelet DEX +4 -->
++		<production count="1" id="47742" />
++	</item>
++	<item>
++		<!-- High-grade Aria's Bracelet DEX +4 -->
++		<ingredient count="1" id="47742" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- High-grade Aria's Bracelet WIT +4 -->
++		<production count="1" id="47743" />
++	</item>
++	<item>
++		<!-- High-grade Aria's Bracelet STR +4 -->
++		<ingredient count="1" id="47745" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- High-grade Aria's Bracelet INT +4 -->
++		<production count="1" id="47744" />
++	</item>
++	<item>
++		<!-- High-grade Aria's Bracelet INT +4 -->
++		<ingredient count="1" id="47744" />
++		<!-- Raidboss Points -->
++		<ingredient count="100" id="-500" />
++		<!-- High-grade Aria's Bracelet STR +4 -->
++		<production count="1" id="47745" />
++	</item>
++
+ 	<!-- <item> -->
+ 	<!-- Advanced Aria's Bracelet: MEN -->
+ 	<!-- <ingredient count="1" id="47741" /> -->
