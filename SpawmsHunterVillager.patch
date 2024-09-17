@@ -1,20 +1,35 @@
 ### Eclipse Workspace Patch 1.0
 #P L2J_Mobius_11.3_Shinemaker
 diff --git dist/game/data/spawns/Hunters/HuntersVillage.xml dist/game/data/spawns/Hunters/HuntersVillage.xml
-index 6b66add..de0141c 100644
+index 6b66add..94e3618 100644
 --- dist/game/data/spawns/Hunters/HuntersVillage.xml
 +++ dist/game/data/spawns/Hunters/HuntersVillage.xml
-@@ -27,7 +27,7 @@
+@@ -27,8 +27,8 @@
  			<npc id="30699" x="120249" y="76031" z="-2256" heading="31768" respawnTime="60sec" /> <!-- Medown - Grand Master -->
  			<npc id="30700" x="120251" y="76247" z="-2264" heading="40960" respawnTime="60sec" /> <!-- Prestan - Master -->
  			<npc id="30701" x="120180" y="75807" z="-2264" heading="18384" respawnTime="60sec" /> <!-- Errickin - Magister -->
 -			<npc id="34267" x="117598" y="77264" z="-2584" heading="53248" respawnTime="60sec" /> <!-- Arcturus - Hunters' Guild Leader -->
-+			<!-- <npc id="34267" x="117598" y="77264" z="-2584" heading="53248" respawnTime="60sec" />  --> <!-- Arcturus - Hunters' Guild Leader -->
- 			<npc id="30703" x="117717" y="77273" z="-2584" heading="45056" respawnTime="60sec" /> <!-- Colleen - Hunters' Guild -->
+-			<npc id="30703" x="117717" y="77273" z="-2584" heading="45056" respawnTime="60sec" /> <!-- Colleen - Hunters' Guild -->
++			<!-- <npc id="34267" x="117598" y="77264" z="-2584" heading="53248" respawnTime="60sec" /> --> <!-- Arcturus - Hunters' Guild Leader -->
++			<!-- <npc id="30703" x="117717" y="77273" z="-2584" heading="45056" respawnTime="60sec" /> --> <!-- Colleen - Hunters' Guild -->
  			<npc id="30704" x="120100" y="74739" z="-2368" heading="31000" respawnTime="60sec" /> <!-- Garvarentz - High Prefect -->
  			<npc id="30705" x="120079" y="74847" z="-2368" heading="31000" respawnTime="60sec" /> <!-- Chakiris - Prefect -->
-@@ -71,7 +71,7 @@
- 			<npc id="33918" x="116387" y="75384" z="-2712" heading="20745" respawnTime="60sec" /> <!-- Aria Furstmater - Soul Seeker -->
+ 			<npc id="30706" x="120039" y="74650" z="-2368" heading="31000" respawnTime="60sec" /> <!-- Lazenby - Priest -->
+@@ -41,7 +41,7 @@
+ 			<npc id="30713" x="118437" y="74051" z="-2384" heading="50000" respawnTime="60sec" /> <!-- Gardner - Guard -->
+ 			<npc id="30714" x="118306" y="74040" z="-2368" heading="50000" respawnTime="60sec" /> <!-- Paros - Guard -->
+ 			<npc id="30744" x="117980" y="76704" z="-2592" heading="32768" respawnTime="60sec" /> <!-- Grey - Hunters' Guild -->
+-			<npc id="30745" x="115952" y="76000" z="-2720" respawnTime="60sec" /> <!-- Tor - Hunters' Guild -->
++			<!-- <npc id="30745" x="115952" y="76000" z="-2720" respawnTime="60sec" /> --> <!-- Tor - Hunters' Guild -->
+ 			<npc id="30746" x="116085" y="74728" z="-2584" heading="10000" respawnTime="60sec" /> <!-- Cybellin -->
+ 			<npc id="30764" x="117380" y="75616" z="-2664" heading="26000" respawnTime="60sec" /> <!-- Balthazar -->
+ 			<npc id="30831" x="117432" y="76044" z="-2720" heading="15000" respawnTime="60sec" /> <!-- Nelson - Pet Manager -->
+@@ -68,10 +68,10 @@
+ 			<!-- <npc id="33495" x="116345" y="74692" z="-2584" heading="15388" respawnTime="60sec" /> --> <!-- Jyamis - Mysterious Dye Merchant -->
+ 			<npc id="33587" x="116911" y="77190" z="-2688" heading="32767" respawnTime="60sec" /> <!-- Mentor Guide - Mentoring Manager -->
+ 			<npc id="33685" x="116045" y="77812" z="-2680" heading="49811" respawnTime="60sec" /> <!-- Mysterious Butler - Ceremony of Chaos -->
+-			<npc id="33918" x="116387" y="75384" z="-2712" heading="20745" respawnTime="60sec" /> <!-- Aria Furstmater - Soul Seeker -->
++			<!-- <npc id="33918" x="116387" y="75384" z="-2712" heading="20745" respawnTime="60sec" /> --> <!-- Aria Furstmater - Soul Seeker -->
  			<npc id="35277" x="116780" y="75504" z="-2720" heading="20000" respawnTime="60sec" /> <!-- Manor Manager - Aden -->
  			<npc id="34018" x="116503" y="75392" z="-2712" heading="12298" respawnTime="60sec" /> <!-- Merlot -->
 -			<npc id="34267" x="117509" y="77208" z="-2590" heading="52054" respawnTime="60sec" /> <!-- Arcturus - Hunters' Guild Leader -->
